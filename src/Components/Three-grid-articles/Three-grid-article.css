@@ -1,0 +1,76 @@
+.threegridpost{
+    width: 100%;
+    height: 40%;
+    display:grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-column-gap:1.5em;
+}
+.major1-image{
+    width: 100%;
+    height: 45%;
+}
+.major2-image{
+    width: 100%;
+    height: 50%;
+}
+.major-content{
+    display: grid;
+    grid-row-gap:1em;
+    margin-left: 20%;
+}
+.major-heading{
+    color: black;
+    word-wrap: break-word;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif ;
+    margin-bottom: 4px;
+    margin-top: .75em;
+   
+}
+.major-description{
+    color: gray;
+    font-size: 16px;
+    font-family: sans-serif;}
+    
+.major-author{
+    font-size: 15px;
+    
+}
+.major-date{
+    margin-left: 20%;
+    font-size: 15px;
+
+}
+.midpost-content :nth-child(odd){
+    display:grid;
+    grid-row-gap:.75em ;
+}
+.midpost{
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+.midpost-image{
+    width: 100px;
+    height: 100px;
+    margin-right: 5%;
+}
+.midpost-heading{
+    word-wrap: break-word;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 10%;
+}
+.edpick{
+    color: green;
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-left: 85%;
+    margin-top: 2%;
+}
+hr{
+    margin-left: 5%;
+    margin-right: 5%;
+}

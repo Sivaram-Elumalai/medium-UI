@@ -1,0 +1,19 @@
+
+.nav{
+    display: flex;
+    align-items: stretch;
+    height: 10%;
+    padding-top: 1%;
+}
+.logo{
+    width: 80%;
+    font-weight: bold;
+    font-size: 2em;
+    padding-left: 3%;
+}
+.icons{
+    margin-left: 80%;
+    display: flex;
+    justify-content: space-around;
+
+}
